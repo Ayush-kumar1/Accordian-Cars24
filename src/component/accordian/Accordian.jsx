@@ -30,6 +30,7 @@ function Accordian() {
       <div className="container">
         {arr.map((elem, index) => (
           <AcoordianCard
+            key={elem.ques}
             ques={elem.ques}
             ans={elem.ans}
             index={index}
